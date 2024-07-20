@@ -146,6 +146,7 @@
             this.btnGradeDelete.Size = new System.Drawing.Size(123, 45);
             this.btnGradeDelete.TabIndex = 36;
             this.btnGradeDelete.Text = "Delete";
+            this.btnGradeDelete.Click += new System.EventHandler(this.btnGradeDelete_Click);
             // 
             // btnGradeEdit
             // 
@@ -161,6 +162,7 @@
             this.btnGradeEdit.Size = new System.Drawing.Size(123, 45);
             this.btnGradeEdit.TabIndex = 35;
             this.btnGradeEdit.Text = "Edit";
+            this.btnGradeEdit.Click += new System.EventHandler(this.btnGradeEdit_Click);
             // 
             // btnGradeSave
             // 
@@ -198,6 +200,7 @@
             // 
             // dgvGrade
             // 
+            this.dgvGrade.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvGrade.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dgvGrade.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvGrade.Location = new System.Drawing.Point(474, 105);
@@ -206,6 +209,7 @@
             this.dgvGrade.RowTemplate.Height = 24;
             this.dgvGrade.Size = new System.Drawing.Size(522, 187);
             this.dgvGrade.TabIndex = 32;
+            this.dgvGrade.SelectionChanged += new System.EventHandler(this.dgvGrade_SelectionChanged);
             // 
             // Grade_List_Form
             // 
@@ -222,7 +226,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Grade_List_Form";
             this.Text = "Grade_List_Form";
             this.groupBox1.ResumeLayout(false);

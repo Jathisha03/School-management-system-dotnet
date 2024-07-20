@@ -411,6 +411,7 @@
             this.btnStudentEdit.Size = new System.Drawing.Size(156, 45);
             this.btnStudentEdit.TabIndex = 29;
             this.btnStudentEdit.Text = "Edit";
+            this.btnStudentEdit.Click += new System.EventHandler(this.btnStudentEdit_Click);
             // 
             // btnStudentDelete
             // 
