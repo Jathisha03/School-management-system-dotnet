@@ -16,7 +16,7 @@ namespace Student_Registration
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Grade_List_Form());
+            Application.Run(new Student_List());
         }
     }
 }

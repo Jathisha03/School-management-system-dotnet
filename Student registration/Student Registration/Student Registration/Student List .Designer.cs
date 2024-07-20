@@ -52,16 +52,16 @@
             this.label13 = new System.Windows.Forms.Label();
             this.dvgStudent = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.comStudentGradeId = new System.Windows.Forms.ComboBox();
+            this.dtStudentDateOfAdmission = new System.Windows.Forms.DateTimePicker();
+            this.dtStudentDateOfBirth = new System.Windows.Forms.DateTimePicker();
+            this.rbtnStudentFemale = new System.Windows.Forms.RadioButton();
+            this.rbtnStudentMale = new System.Windows.Forms.RadioButton();
             this.txtStudentSearch = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnStudentSave = new Guna.UI2.WinForms.Guna2Button();
             this.btnStudentEdit = new Guna.UI2.WinForms.Guna2Button();
             this.btnStudentDelete = new Guna.UI2.WinForms.Guna2Button();
-            this.rbtnStudentMale = new System.Windows.Forms.RadioButton();
-            this.rbtnStudentFemale = new System.Windows.Forms.RadioButton();
-            this.dtStudentDateOfBirth = new System.Windows.Forms.DateTimePicker();
-            this.dtStudentDateOfAdmission = new System.Windows.Forms.DateTimePicker();
-            this.comStudentGradeId = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dvgStudent)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -315,6 +315,54 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Form";
             // 
+            // comStudentGradeId
+            // 
+            this.comStudentGradeId.FormattingEnabled = true;
+            this.comStudentGradeId.Location = new System.Drawing.Point(230, 345);
+            this.comStudentGradeId.Name = "comStudentGradeId";
+            this.comStudentGradeId.Size = new System.Drawing.Size(204, 33);
+            this.comStudentGradeId.TabIndex = 33;
+            // 
+            // dtStudentDateOfAdmission
+            // 
+            this.dtStudentDateOfAdmission.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtStudentDateOfAdmission.Location = new System.Drawing.Point(228, 423);
+            this.dtStudentDateOfAdmission.Name = "dtStudentDateOfAdmission";
+            this.dtStudentDateOfAdmission.Size = new System.Drawing.Size(205, 32);
+            this.dtStudentDateOfAdmission.TabIndex = 32;
+            // 
+            // dtStudentDateOfBirth
+            // 
+            this.dtStudentDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtStudentDateOfBirth.Location = new System.Drawing.Point(228, 226);
+            this.dtStudentDateOfBirth.Name = "dtStudentDateOfBirth";
+            this.dtStudentDateOfBirth.Size = new System.Drawing.Size(205, 32);
+            this.dtStudentDateOfBirth.TabIndex = 31;
+            // 
+            // rbtnStudentFemale
+            // 
+            this.rbtnStudentFemale.AutoSize = true;
+            this.rbtnStudentFemale.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.rbtnStudentFemale.Location = new System.Drawing.Point(328, 196);
+            this.rbtnStudentFemale.Name = "rbtnStudentFemale";
+            this.rbtnStudentFemale.Size = new System.Drawing.Size(106, 29);
+            this.rbtnStudentFemale.TabIndex = 26;
+            this.rbtnStudentFemale.TabStop = true;
+            this.rbtnStudentFemale.Text = "Female";
+            this.rbtnStudentFemale.UseVisualStyleBackColor = true;
+            // 
+            // rbtnStudentMale
+            // 
+            this.rbtnStudentMale.AutoSize = true;
+            this.rbtnStudentMale.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.rbtnStudentMale.Location = new System.Drawing.Point(229, 196);
+            this.rbtnStudentMale.Name = "rbtnStudentMale";
+            this.rbtnStudentMale.Size = new System.Drawing.Size(80, 29);
+            this.rbtnStudentMale.TabIndex = 25;
+            this.rbtnStudentMale.TabStop = true;
+            this.rbtnStudentMale.Text = "Male";
+            this.rbtnStudentMale.UseVisualStyleBackColor = true;
+            // 
             // txtStudentSearch
             // 
             this.txtStudentSearch.Location = new System.Drawing.Point(533, 46);
@@ -378,54 +426,6 @@
             this.btnStudentDelete.Size = new System.Drawing.Size(156, 45);
             this.btnStudentDelete.TabIndex = 30;
             this.btnStudentDelete.Text = "Delete";
-            // 
-            // rbtnStudentMale
-            // 
-            this.rbtnStudentMale.AutoSize = true;
-            this.rbtnStudentMale.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.rbtnStudentMale.Location = new System.Drawing.Point(229, 196);
-            this.rbtnStudentMale.Name = "rbtnStudentMale";
-            this.rbtnStudentMale.Size = new System.Drawing.Size(80, 29);
-            this.rbtnStudentMale.TabIndex = 25;
-            this.rbtnStudentMale.TabStop = true;
-            this.rbtnStudentMale.Text = "Male";
-            this.rbtnStudentMale.UseVisualStyleBackColor = true;
-            // 
-            // rbtnStudentFemale
-            // 
-            this.rbtnStudentFemale.AutoSize = true;
-            this.rbtnStudentFemale.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.rbtnStudentFemale.Location = new System.Drawing.Point(328, 196);
-            this.rbtnStudentFemale.Name = "rbtnStudentFemale";
-            this.rbtnStudentFemale.Size = new System.Drawing.Size(106, 29);
-            this.rbtnStudentFemale.TabIndex = 26;
-            this.rbtnStudentFemale.TabStop = true;
-            this.rbtnStudentFemale.Text = "Female";
-            this.rbtnStudentFemale.UseVisualStyleBackColor = true;
-            // 
-            // dtStudentDateOfBirth
-            // 
-            this.dtStudentDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtStudentDateOfBirth.Location = new System.Drawing.Point(228, 226);
-            this.dtStudentDateOfBirth.Name = "dtStudentDateOfBirth";
-            this.dtStudentDateOfBirth.Size = new System.Drawing.Size(205, 32);
-            this.dtStudentDateOfBirth.TabIndex = 31;
-            // 
-            // dtStudentDateOfAdmission
-            // 
-            this.dtStudentDateOfAdmission.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtStudentDateOfAdmission.Location = new System.Drawing.Point(228, 423);
-            this.dtStudentDateOfAdmission.Name = "dtStudentDateOfAdmission";
-            this.dtStudentDateOfAdmission.Size = new System.Drawing.Size(205, 32);
-            this.dtStudentDateOfAdmission.TabIndex = 32;
-            // 
-            // comStudentGradeId
-            // 
-            this.comStudentGradeId.FormattingEnabled = true;
-            this.comStudentGradeId.Location = new System.Drawing.Point(230, 345);
-            this.comStudentGradeId.Name = "comStudentGradeId";
-            this.comStudentGradeId.Size = new System.Drawing.Size(204, 33);
-            this.comStudentGradeId.TabIndex = 33;
             // 
             // Student_List
             // 
